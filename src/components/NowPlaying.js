@@ -24,7 +24,7 @@ const NowPlaying = () => {
       }
     };
 
-    // fetchTracks();
+    fetchTracks();
   }, []);
 
   useEffect(() => {
@@ -46,7 +46,7 @@ const NowPlaying = () => {
   };
 
   return (
-    <div className="now-playing-container col-span-1 row-span-1 bg-orange-100 rounded-lg p-4">
+    <div className="now-playing-container col-span-1 row-span-2 bg-orange-100 rounded-lg p-4">
       <div className="relative flex items-center justify-between">
         <div
           style={{ fontFamily: "Almarai, sans-serif" }}
