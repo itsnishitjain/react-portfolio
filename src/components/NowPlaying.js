@@ -24,7 +24,7 @@ const NowPlaying = () => {
       }
     };
 
-    fetchTracks();
+    // fetchTracks();
   }, []);
 
   useEffect(() => {

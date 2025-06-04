@@ -22,15 +22,18 @@ const About = () => {
           About Me
         </div>
         <p className="mt-5 mr-6 sm:text-base text-md sm:pl-6 lg:pl-4">
-          Currently a second-year Computer Science student at Trinity College
-          Dublin, I'm passionate about interdisciplinary research, particularly
-          integrating technology with music. I usually spend my time developing
-          software applications to solve problems I find interesting, but when
-          I’m not coding, you can find me exploring niche music genres and
-          learning math rock on the guitar. <br />
-          <br />
-          lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum
-          dolor sit amet,You can find my resume, <u>here</u>
+          I’m currently a second-year Computer Science student at Trinity
+          College Dublin and an incoming exchange student at the University of
+          California, Santa Cruz (UCSC). I’m working on becoming a Software
+          Engineer with a strong foundation in problem-solving. I aspire to gain
+          hands-on experience through internships and collaborative projects to
+          build real-world engineering skills. Apart from that, I'm also
+          passionate about interdisciplinary research, particularly integrating
+          technology with creative domains like music. <br />
+          <br />I usually spend my time developing software applications to
+          solve problems I find interesting, but when I’m not coding, you can
+          find me scrounging for band merch, exploring niche music genres and
+          learning math rock on the guitar.
         </p>
 
         <div className="mt-8 sm:pl-6 lg:pl-0">
@@ -38,7 +41,7 @@ const About = () => {
         </div>
 
         {/* Tech Stack Section */}
-        <div className="mt-8 sm:pl-6 lg:pl-4">
+        {/* <div className="mt-8 sm:pl-6 lg:pl-4">
           <div
             style={{ fontFamily: "Almarai, sans-serif" }}
             className="sm:text-2xl text-2xl"
@@ -55,7 +58,7 @@ const About = () => {
             <FaJava size={35} />
             <FaPython size={35} />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
