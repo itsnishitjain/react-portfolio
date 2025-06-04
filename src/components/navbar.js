@@ -4,20 +4,28 @@ const Navbar = () => {
   return (
     <div className="navbar bg-orange-100 text-black rounded-xl px-4">
       <div className="navbar-start">
-        <a className="btn btn-ghost normal-case text-xl">Nishit Jain</a>
+        <a href="../" className="btn btn-ghost normal-case text-xl">
+          Nishit Jain
+        </a>
       </div>
 
       {/* Hidden on screens smaller than 640px */}
       <div className="navbar-center hidden sm:flex flex-1 justify-end">
         <ul className="menu menu-horizontal px-1 space-x-2">
           <li>
-            <a>Projects</a>
+            <a>Work</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a
+              href="mailto:nijain@tcd.ie" // Replace with your email
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </a>
           </li>
           <li>
-            <a>Resume</a>
+            <a href="/NishitJain_CV.pdf">Resume</a>
           </li>
         </ul>
       </div>
@@ -49,7 +57,13 @@ const Navbar = () => {
               <a>Projects</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a
+                href="mailto:nijain@tcd.ie" // Replace with your email
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact
+              </a>
             </li>
             <li>
               <a>Resume</a>

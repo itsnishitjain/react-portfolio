@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderBox from "./Header";
 import NowPlayingBox from "./NowPlaying";
-import ProjectsBox from "./Projects";
+import WorkBox from "./Work";
 import AboutMeBox from "./About";
 import ContactBox from "./Contact";
 import "../index.css";
@@ -19,7 +19,7 @@ const Grid = () => {
     >
       <HeaderBox />
       <NowPlayingBox />
-      <ProjectsBox />
+      <WorkBox />
       <AboutMeBox />
       <ContactBox />
     </div>
